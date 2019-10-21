@@ -229,9 +229,11 @@ header .navBar .navLinks {
 }
 .packages h3 {
   font-size: 2.5rem;
+  margin: 5% 0;
 }
 .packages p {
   font-size: 1.8rem;
+  margin: 0 2%;
 }
 .packages .twoRow {
   display: flex;
@@ -241,7 +243,32 @@ header .navBar .navLinks {
 }
 .packages .twoRow .staff {
   width: 33%;
+  padding: 5px;
+  border: 2px solid #4e4e4e;
 }
 .packages .twoRow .client {
   width: 33%;
+  padding: 5px;
+  border: 2px solid #4e4e4e;
+}
+.packages .threeRow {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.packages .threeRow .sad {
+  width: 30%;
+  padding: 5px;
+  border: 2px solid #4e4e4e;
+}
+.packages .threeRow .credit {
+  width: 30%;
+  padding: 5px;
+  border: 2px solid #4e4e4e;
+}
+.packages .threeRow .cord {
+  width: 30%;
+  padding: 5px;
+  border: 2px solid #4e4e4e;
 }
