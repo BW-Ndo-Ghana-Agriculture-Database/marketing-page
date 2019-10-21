@@ -175,6 +175,8 @@ a {
 }
 a:hover {
   color: #46d2a3;
+  padding: 10px 0;
+  border-bottom: 3px solid #46d2a3;
 }
 header .navBar {
   position: fixed;
@@ -183,6 +185,7 @@ header .navBar {
   width: 100%;
   background-color: #fff;
   padding: 25px 0;
+  box-shadow: 10px 0px 4px rgba(0, 0, 0, 0.5);
 }
 header .navBar .imgContainer {
   width: 50%;
@@ -195,11 +198,50 @@ header .navBar .navLinks {
 }
 .farmPic {
   width: 100%vw;
-  height: 5%vh;
+  height: 3%vh;
 }
 .mission {
   margin-top: 8%;
+  width: 50%;
+  margin: 8% auto;
 }
 .mission h2 {
   text-align: center;
+  margin: 5% auto;
+  padding-bottom: 5%;
+  font-size: 3.5rem;
+  border-bottom: 3px solid #46d2a3;
+  width: 50%;
+}
+.mission p {
+  text-align: center;
+}
+.packages {
+  text-align: center;
+}
+.packages h2 {
+  text-align: center;
+  margin: 5% auto;
+  padding-bottom: 3%;
+  font-size: 3.5rem;
+  border-bottom: 3px solid #46d2a3;
+  width: 25%;
+}
+.packages h3 {
+  font-size: 2.5rem;
+}
+.packages p {
+  font-size: 1.8rem;
+}
+.packages .twoRow {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.packages .twoRow .staff {
+  width: 33%;
+}
+.packages .twoRow .client {
+  width: 33%;
 }
