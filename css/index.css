@@ -146,6 +146,7 @@ h3,
 h4,
 h5 {
   font-family: 'Lato', sans-serif;
+  color: #363636;
 }
 h1 {
   font-size: 4rem;
@@ -162,21 +163,11 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  color: #363636;
 }
 img {
   max-width: 100%;
   height: auto;
-}
-a {
-  font-size: 1.8rem;
-  text-decoration: none;
-  font-family: 'Work Sans', sans-serif;
-  color: #363636;
-}
-a:hover {
-  color: #46d2a3;
-  padding: 10px 0;
-  border-bottom: 3px solid #46d2a3;
 }
 header .navBar {
   position: fixed;
@@ -195,6 +186,17 @@ header .navBar .navLinks {
   align-items: center;
   width: 50%;
   justify-content: space-around;
+}
+header .navBar .navLinks a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  color: #363636;
+}
+header .navBar .navLinks a:hover {
+  color: #46d2a3;
+  padding: 10px 0;
+  border-bottom: 3px solid #46d2a3;
 }
 .farmPic {
   width: 100%vw;
@@ -230,10 +232,12 @@ header .navBar .navLinks {
 .packages h3 {
   font-size: 2.5rem;
   margin: 5% 0;
+  color: #fff;
 }
 .packages p {
   font-size: 1.8rem;
   margin: 0 2%;
+  color: #fff;
 }
 .packages .twoRow {
   display: flex;
@@ -244,12 +248,16 @@ header .navBar .navLinks {
 .packages .twoRow .staff {
   width: 33%;
   padding: 5px;
-  border: 2px solid #4e4e4e;
+  border: 2px solid #1D1D21;
+  background: #4e4e4e;
+  border-radius: 5px;
 }
 .packages .twoRow .client {
   width: 33%;
   padding: 5px;
-  border: 2px solid #4e4e4e;
+  border: 2px solid #1D1D21;
+  background: #4e4e4e;
+  border-radius: 5px;
 }
 .packages .threeRow {
   display: flex;
@@ -260,15 +268,21 @@ header .navBar .navLinks {
 .packages .threeRow .sad {
   width: 30%;
   padding: 5px;
-  border: 2px solid #4e4e4e;
+  border: 2px solid #1D1D21;
+  background: #4e4e4e;
+  border-radius: 5px;
 }
 .packages .threeRow .credit {
   width: 30%;
   padding: 5px;
-  border: 2px solid #4e4e4e;
+  border: 2px solid #1D1D21;
+  background: #4e4e4e;
+  border-radius: 5px;
 }
 .packages .threeRow .cord {
   width: 30%;
   padding: 5px;
-  border: 2px solid #4e4e4e;
+  border: 2px solid #1D1D21;
+  background: #4e4e4e;
+  border-radius: 5px;
 }

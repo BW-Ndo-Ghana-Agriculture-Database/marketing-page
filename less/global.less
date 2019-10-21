@@ -14,6 +14,7 @@ html {
   
   h1, h2, h3, h4, h5 {
     font-family: 'Lato', sans-serif;
+    color: @fontColor;
   }
   
   h1 {
@@ -34,6 +35,7 @@ html {
     line-height: 1.5;
     font-size: 1.6rem;
     padding-bottom: 10px;
+    color: @fontColor;
   }
   
   img {
@@ -41,14 +43,3 @@ html {
     height: auto;
   }
 
-  a {
-    font-size: 1.8rem;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: @fontColor;
-    &:hover{
-        color: @callToAction;
-        padding: 10px 0;
-        border-bottom: 3px solid @callToAction;
-    }
-  }

@@ -15,6 +15,17 @@ header {
             align-items: center;
             width: 50%;
             justify-content: space-around;
+            a{
+                font-size: 1.8rem;
+                text-decoration: none;
+                font-family: 'Work Sans', sans-serif;
+                color: @fontColor;
+                &:hover{
+                    color: @callToAction;
+                    padding: 10px 0;
+                    border-bottom: 3px solid @callToAction;
+                }
+            }
         }
     }
 }
