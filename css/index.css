@@ -220,6 +220,7 @@ header .navBar .navLinks a:hover {
 }
 .packages {
   text-align: center;
+  margin-bottom: 8%;
 }
 .packages h2 {
   text-align: center;
@@ -285,4 +286,22 @@ header .navBar .navLinks a:hover {
   border: 2px solid #1D1D21;
   background: #4e4e4e;
   border-radius: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #46d2a3;
+  padding: 1% 5%;
+  font-size: 1.8rem;
+  border-radius: 8px;
+}
+.button a:hover {
+  color: #363636;
+  background-color: #fff;
+  border: 2px solid #363636;
 }

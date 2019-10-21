@@ -22,6 +22,7 @@
 
 .packages{
     text-align: center;
+    margin-bottom: 8%;
     h2{
         text-align: center;
         margin: 5% auto;
@@ -87,4 +88,23 @@
             border-radius: 5px;
         }
     }
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: @callToAction;
+        padding: 1% 5%;
+        font-size: 1.8rem;
+        border-radius: 8px;
+        &:hover{
+            color: @fontColor;
+            background-color: #fff;
+            border: 2px solid @fontColor;
+        }
+    } 
 }
