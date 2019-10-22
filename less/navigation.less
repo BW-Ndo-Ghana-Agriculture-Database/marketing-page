@@ -7,19 +7,50 @@ header {
         background-color: #fff;
         padding: 25px 0;
         box-shadow: 10px 0px 4px rgba(0, 0, 0, .5);
+        @media @tablet{
+            flex-direction: column;
+        }
+        @media @phone{
+            position: relative;
+            padding: 0 0;
+        }
         .imgContainer{
             width: 50%;
+            @media @tablet{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 5%;
+            }
+            @media @phone{
+                margin-top: 2%;
+            }
         }
         .navLinks{
             display: flex;
             align-items: center;
             width: 50%;
             justify-content: space-around;
+            @media @tablet{
+                width: 100%;
+                justify-content: space-evenly;
+            }
+            @media @phone{
+                flex-direction: column;
+            }
             a{
                 font-size: 1.8rem;
                 text-decoration: none;
                 font-family: 'Work Sans', sans-serif;
                 color: @fontColor;
+                @media @phone{
+                    margin-top: 5%;
+                    border-bottom: 1px solid @fontColor;
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 5%;
+                }
                 &:hover{
                     color: @callToAction;
                     padding: 10px 0;

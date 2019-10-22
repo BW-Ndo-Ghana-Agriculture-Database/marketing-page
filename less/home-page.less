@@ -1,12 +1,18 @@
 .farmPic{
     width: 100%vw;
     height: 3%vh;
+    @media @phone{
+        display: none;
+    }
 }
 
 .mission{
     margin-top: 8%;
     width: 50%;
     margin: 8% auto;
+    @media @phone{
+        width: 90%;
+    }
     h2{
         text-align: center;
         margin: 5% auto;
@@ -14,6 +20,9 @@
         font-size: 3.5rem;
         border-bottom: 3px solid @callToAction;
         width: 50%;
+        @media @phone{
+            width: 60%;
+        }
     }
     p{
         text-align: center;
@@ -30,6 +39,9 @@
         font-size: 3.5rem;
         border-bottom: 3px solid @callToAction;
         width: 25%;
+        @media @phone{
+            width: 60%;
+        }
     }
     h3{
         font-size: 2.5rem;
@@ -46,12 +58,21 @@
         margin: 0 auto;
         justify-content: space-evenly;
         width: 80%;
+        @media @phone{
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
         .staff{
             width: 33%;
             padding: 5px;
             border: 2px solid #1D1D21;
             background: #4e4e4e;
             border-radius: 5px;
+            @media @phone{
+                .phoneBlock();
+            }
         }
         .client{
             width: 33%;
@@ -59,6 +80,9 @@
             border: 2px solid #1D1D21;
             background: #4e4e4e;
             border-radius: 5px;
+            @media @phone{
+                .phoneBlock();
+            }
         }
     }
     .threeRow{
@@ -66,12 +90,21 @@
         margin: 0 auto;
         justify-content: space-evenly;
         width: 90%;
+        @media @phone{
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
         .sad{
             width: 30%;
             padding: 5px;
             border: 2px solid #1D1D21;
             background: #4e4e4e;
             border-radius: 5px;
+            @media @phone{
+                .phoneBlock();
+            }
         }
         .credit{
             width: 30%;
@@ -79,6 +112,9 @@
             border: 2px solid #1D1D21;
             background: #4e4e4e;
             border-radius: 5px;
+            @media @phone{
+                .phoneBlock();
+            }
         }
         .cord{
             width: 30%;
@@ -86,6 +122,9 @@
             border: 2px solid #1D1D21;
             background: #4e4e4e;
             border-radius: 5px;
+            @media @phone{
+                .phoneBlock();
+            }
         }
     }
 }
@@ -102,6 +141,9 @@
         padding: 1% 5%;
         font-size: 2.2rem;
         border-radius: 8px;
+        @media @phone{
+            padding: 5% 30%;
+        }
         &:hover{
             color: @fontColor;
             background-color: #fff;
